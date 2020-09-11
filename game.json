@@ -1,0 +1,162 @@
+{
+    "passages": [
+      {
+        "text": "\nYou are a knight. Storming the castle of Bloomington.You have a clan of bandits chasing you for your valuables. You must get to the top of the castle in order to save the princess and bring her to safety. \nTake the ladder up the castle wall\n[[Up Ladder->Top of the Wall]]\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "links": [
+          {
+            "name": "Up Ladder",
+            "link": "Top of the Wall",
+            "pid": "2"
+          }
+        ],
+        "name": "Bridge of Castle",
+        "pid": "1",
+        "position": {
+          "x": "57",
+          "y": "379"
+        }
+      },
+      {
+        "text": "You reached the top of the wall. Jump down as the bandits are trying to shoot you down with their bows and arrows. Jump down, break the door and enter the castle. \n[[Top of Wall-> Castle Door]]\n\n",
+        "links": [
+          {
+            "name": "Top of Wall",
+            "link": " Castle Door",
+            "pid": "3"
+          }
+        ],
+        "name": "Top of the Wall",
+        "pid": "2",
+        "position": {
+          "x": "142",
+          "y": "257"
+        }
+      },
+      {
+        "text": "You have entered the castle, run down the hallway and avoid the royal guards from retaining you. Get to the stairwell and take the single guard down with your sword.\n[[ Castle Door->Entrance of Stairwell]] \n",
+        "links": [
+          {
+            "name": " Castle Door",
+            "link": "Entrance of Stairwell",
+            "pid": "4"
+          }
+        ],
+        "name": " Castle Door",
+        "pid": "3",
+        "position": {
+          "x": "217",
+          "y": "149"
+        }
+      },
+      {
+        "text": "Your at the stairwell, run up the stairs as fast as possible. The bandits are shooting fireballs and their target is you!! Reach the top floor safely.\n[[Entrance of Stairwell->Top Floor]] ",
+        "links": [
+          {
+            "name": "Entrance of Stairwell",
+            "link": "Top Floor",
+            "pid": "5"
+          }
+        ],
+        "name": "Entrance of Stairwell",
+        "pid": "4",
+        "position": {
+          "x": "320",
+          "y": "24"
+        }
+      },
+      {
+        "text": "You are on the top floor. There are 3 guards, guarding the princess's room of captivity. Each guard has a different set of weapons. The first one is a master swordsman. You must avoid his wrath and take him down with your brute strength.\n[[Top Floor->Avoid Swing and take him down]] ",
+        "links": [
+          {
+            "name": "Top Floor",
+            "link": "Avoid Swing and take him down",
+            "pid": "6"
+          }
+        ],
+        "name": "Top Floor",
+        "pid": "5",
+        "position": {
+          "x": "496",
+          "y": "26"
+        }
+      },
+      {
+        "text": "Nice! You defeated the first guard. The second guard is a marksman with a bow and arrow. He quickly fires an arrow and its directly heading for your chest. You spin around just barely avoiding the shot. You reach for your knife and quckly strike down the guard.\n[[Avoid Swing and take him down->Striking down the second guard with your knife]] ",
+        "links": [
+          {
+            "name": "Avoid Swing and take him down",
+            "link": "Striking down the second guard with your knife",
+            "pid": "7"
+          }
+        ],
+        "name": "Avoid Swing and take him down",
+        "pid": "6",
+        "position": {
+          "x": "593",
+          "y": "131"
+        }
+      },
+      {
+        "text": "The third guard's weapon is his pure strength. He immediatly takes you down and is holding you down to the floor. One of the arrows belonging to the fallen guards is within your reach. You reach for it using all your strength.\n[[Striking down the second guard with your knife->Grab the arrow]] \n",
+        "links": [
+          {
+            "name": "Striking down the second guard with your knife",
+            "link": "Grab the arrow",
+            "pid": "8"
+          }
+        ],
+        "name": "Striking down the second guard with your knife",
+        "pid": "7",
+        "position": {
+          "x": "679",
+          "y": "240"
+        }
+      },
+      {
+        "text": "You grab the arrow. Strike him down with it and enter the pricess's room.\n[[Grab the arrow->Enter the Princess's room]] ",
+        "links": [
+          {
+            "name": "Grab the arrow",
+            "link": "Enter the Princess's room",
+            "pid": "9"
+          }
+        ],
+        "name": "Grab the arrow",
+        "pid": "8",
+        "position": {
+          "x": "784",
+          "y": "356"
+        }
+      },
+      {
+        "text": "You reached the Princess! You quickly grab a rope and drop it out the window so that you guys can escaspe safely. \n[[Enter the Princess's room->Escape]] \n",
+        "links": [
+          {
+            "name": "Enter the Princess's room",
+            "link": "Escape",
+            "pid": "10"
+          }
+        ],
+        "name": "Enter the Princess's room",
+        "pid": "9",
+        "position": {
+          "x": "502",
+          "y": "263"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Escape",
+        "pid": "10",
+        "position": {
+          "x": "349",
+          "y": "265"
+        }
+      }
+    ],
+    "name": "01 Fiction",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "3AE1388D-A376-4B8C-AF14-075AAA84DF63"
+  }
